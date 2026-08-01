@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://sourcery.ai/changelog
+scheme: dated
+current_version: null
+notes: >-
+  Sourcery publishes a dated product changelog spanning August 2020 through
+  December 2025. Entries are feature-oriented (product releases), not semantic
+  versions. Recent window captured below.
+entries:
+- date: '2025-12-23'
+  highlights: Comprehensive security scanning - SAST, SCA, secrets, IaC, and license detection.
+  breaking: false
+- date: '2025-02-27'
+  highlights: Improved AI models, custom prompts, and IDE chat improvements.
+  breaking: false
+- date: '2025-01-23'
+  highlights: New-style chat in IDE - apply your changes with one click.
+  breaking: false
+- date: '2025-01-08'
+  highlights: Major improvements to the IDE chat experience; self-hosted GitLab and GitHub support.
+  breaking: false

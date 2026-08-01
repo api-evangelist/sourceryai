@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/sourcery-ai/sourcery, https://pypi.org/project/sourcery-cli/
+clis:
+- name: sourcery
+  package: sourcery-cli
+  registry: pypi
+  install:
+  - pip install sourcery-cli
+  version: 1.20.0
+  source_code: https://github.com/sourcery-ai/sourcery
+  description: The Sourcery command-line tool for reviewing and refactoring Python code.
+  commands:
+  - name: sourcery login
+    summary: Authenticate the CLI with a Sourcery account token.
+  - name: sourcery review
+    summary: Review Python files or paths and print or apply suggested refactorings.
+  - name: sourcery init
+    summary: Set up Sourcery configuration in a repository.
+  official: true
+- name: sourcery-analytics
+  package: sourcery-analytics
+  registry: pypi
+  install:
+  - pip install sourcery-analytics
+  version: 1.2.1
+  source_code: https://github.com/sourcery-ai/sourcery-analytics
+  docs: https://sourcery-analytics.sourcery.ai/
+  description: Command-line tool and library for statically analyzing Python code quality metrics.
+  commands:
+  - name: sourcery-analytics analyze
+    summary: Compute code quality metrics for a Python file, module, or package.
+  - name: sourcery-analytics aggregate
+    summary: Aggregate metrics across a codebase.
+  - name: sourcery-analytics assess
+    summary: Assess code against configurable quality thresholds (CI gate).
+  official: true

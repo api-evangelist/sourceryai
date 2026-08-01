@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.sourcery.ai/security
+url: https://www.sourcery.ai/security
+trust_center: https://app.mycroft.io/trust/sourcery
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://www.sourcery.ai/security
+  keywords:
+  - soc2
+  - trust center
+  - gdpr

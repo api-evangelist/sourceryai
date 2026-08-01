@@ -1,0 +1,26 @@
+# Sourcery.AI
+
+> Sourcery is an AI-powered code review platform for teams shipping large volumes of AI-generated and human-written code. It provides automated pull-request reviews (summaries, diagrams, line-by-line suggestions), continuous security scanning (SAST, SCA, secrets, IaC, license detection), team analytics, and real-time in-IDE feedback across GitHub, GitLab, VS Code, Cursor, and JetBrains IDEs. Sourcery is a Techstars-backed company and is SOC 2 and GDPR compliant. There is no public REST/GraphQL developer API; the product is consumed through its Git and IDE integrations, a GitHub Action, and open-source Python CLIs.
+
+## Docs
+- [Documentation](https://docs.sourcery.ai): Product documentation home
+- [Getting Started (VS Code)](https://docs.sourcery.ai/Guides/Getting-Started/VSCode/): IDE setup guide
+- [Getting Started (PyCharm)](https://docs.sourcery.ai/Guides/Getting-Started/PyCharm/): JetBrains setup guide
+- [GitHub integration](https://docs.sourcery.ai/Code-Review/Integrations/GitHub/): Connect Sourcery to GitHub
+- [GitLab integration](https://docs.sourcery.ai/Code-Review/Integrations/GitLab/): Connect Sourcery to GitLab
+
+## Packages & CLI
+- [sourcery-cli (PyPI)](https://pypi.org/project/sourcery-cli/): `pip install sourcery-cli` — Python refactoring CLI
+- [sourcery-analytics (PyPI)](https://pypi.org/project/sourcery-analytics/): `pip install sourcery-analytics` — Python code-quality CLI + library
+- [Sourcery VS Code extension](https://marketplace.visualstudio.com/items?itemName=sourcery.sourcery): In-IDE review and refactoring
+- [Sourcery GitHub Action](https://github.com/sourcery-ai/action): Run Sourcery in CI
+
+## Company
+- [Pricing](https://sourcery.ai/pricing): Open Source (free), Pro, Team, Enterprise
+- [Changelog](https://sourcery.ai/changelog): Dated product changelog
+- [Blog](https://sourcery.ai/blog): Product and engineering blog
+- [GitHub organization](https://github.com/sourcery-ai): Open-source repositories
+- [Sign up](https://app.sourcery.ai): Start a free trial
+- [Trust center](https://app.mycroft.io/trust/sourcery): SOC 2 and GDPR compliance
+- [Terms of Service](https://sourcery.ai/terms)
+- [Privacy Policy](https://sourcery.ai/privacy)

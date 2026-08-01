@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/sourcery-ai, https://pypi.org
+packages:
+- language: python
+  registry: pypi
+  name: sourcery-cli
+  url: https://pypi.org/project/sourcery-cli/
+  install: pip install sourcery-cli
+  version: 1.20.0
+  description: Magically refactor Python (the Sourcery command-line refactoring tool).
+  source_code: https://github.com/sourcery-ai/sourcery
+  official: true
+- language: python
+  registry: pypi
+  name: sourcery-analytics
+  url: https://pypi.org/project/sourcery-analytics/
+  install: pip install sourcery-analytics
+  version: 1.2.1
+  description: Library and CLI for statically analyzing the code quality of Python packages, modules, or source code.
+  source_code: https://github.com/sourcery-ai/sourcery-analytics
+  docs: https://sourcery-analytics.sourcery.ai/
+  official: true
+- language: typescript
+  registry: vscode-marketplace
+  name: sourcery.sourcery
+  url: https://marketplace.visualstudio.com/items?itemName=sourcery.sourcery
+  description: Sourcery VS Code extension for in-IDE AI code review and refactoring.
+  source_code: https://github.com/sourcery-ai/sourcery-vscode
+  official: true
+- language: yaml
+  registry: github-actions
+  name: sourcery-ai/action
+  url: https://github.com/sourcery-ai/action
+  install: "uses: sourcery-ai/action@v1"
+  description: GitHub Action for running Sourcery code review in CI.
+  official: true

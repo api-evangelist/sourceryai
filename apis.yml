@@ -1,7 +1,29 @@
 aid: sourceryai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sourceryai.png
 name: Sourcery.AI
-description: Sourcery.AI is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sourcery is an AI-powered code review platform built for teams shipping large
+  volumes of AI-generated and human-written code. It delivers instant automated
+  pull-request reviews with summaries, diagrams, and line-by-line suggestions,
+  continuous security scanning (SAST, SCA, secrets, IaC, and license detection),
+  team analytics, and real-time in-IDE review feedback. Sourcery integrates with
+  GitHub, GitLab, VS Code, Cursor, and JetBrains IDEs, and works alongside coding
+  agents to automatically fix the issues it identifies. The company also maintains
+  the open-source Sourcery Python refactoring CLI and the sourcery-analytics code
+  quality toolkit. Sourcery is SOC 2 and GDPR compliant, with enterprise options
+  for self-hosting, zero data retention, custom LLM endpoints, and no training on
+  customer code.
 url: https://raw.githubusercontent.com/api-evangelist/sourceryai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Code Review
+- Developer Tools
+- Static Analysis
+- Security Scanning
+- Code Quality
+- Artificial Intelligence
+- DevOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,48 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/sourceryai-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/sourceryai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/sourceryai-domain-security.yml
+- type: Security
+  url: https://sourcery.ai/security
+- type: Compliance
+  url: https://app.mycroft.io/trust/sourcery
+- type: Packages
+  url: packages/sourceryai-packages.yml
+- type: SDKs
+  url: packages/sourceryai-packages.yml
+- type: CLI
+  url: cli/sourceryai-cli.yml
+- type: LLMsTxt
+  url: llms/sourceryai-llms.txt
 - type: Website
   url: https://sourcery.ai/
+- type: Documentation
+  url: https://docs.sourcery.ai
+- type: GettingStarted
+  url: https://docs.sourcery.ai/Guides/Getting-Started/VSCode/
+- type: GitHubOrganization
+  url: https://github.com/sourcery-ai
+- type: Pricing
+  url: https://sourcery.ai/pricing
+- type: Blog
+  url: https://sourcery.ai/blog
+- type: SignUp
+  url: https://app.sourcery.ai
+- type: TermsOfService
+  url: https://sourcery.ai/terms
+- type: PrivacyPolicy
+  url: https://sourcery.ai/privacy
+- type: ChangeLog
+  url: https://sourcery.ai/changelog
+- type: ChangeLog
+  url: changelog/sourceryai-changelog.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
