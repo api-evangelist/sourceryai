@@ -1,0 +1,68 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.sourcery.ai/pricing
+sources:
+- https://www.sourcery.ai/pricing
+- https://sourcery.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Self-hosting
+  managed_tier: Pro
+published: true
+note: Seat-based tiers with annual/monthly pricing; Enterprise self-hosting is custom-priced.
+plan_count: 6
+currency: USD
+plans:
+- name: Open Source
+  price_text: Free forever
+  period: none
+  unit: public repos
+  included_quota: AI reviews on public repos, PR summaries and diagrams, one-click fixes, custom review
+    rules, auto-approve low-risk PRs, security checks on every PR
+- name: Pro
+  price_text: $12
+  price: 12
+  currency: USD
+  period: month
+  unit: developer
+  included_quota: Everything in Open Source, plus AI reviews on private repos, higher review limits, Jira
+    integration
+- name: Pro (monthly)
+  price_text: $15
+  price: 15
+  currency: USD
+  period: month
+  unit: developer
+  included_quota: billed monthly
+- name: Team
+  price_text: $24
+  price: 24
+  currency: USD
+  period: month
+  unit: developer
+  included_quota: Everything in Pro, plus codebase security, nightly scans of 50 repos, full issues dashboard,
+    on-demand scans, higher review limits, team analytics
+- name: Team (monthly)
+  price_text: $30
+  price: 30
+  currency: USD
+  period: month
+  unit: developer
+  included_quota: billed monthly
+- name: Enterprise
+  price_text: Custom
+  period: year
+  included_quota: Everything in Team, plus self-hosting, GitHub Enterprise Server, SSO, bring your own
+    LLM keys, dedicated success manager, invoice billing
+rate_limit_statements:
+- Higher review limits
+- Nightly scans of 50 repos
