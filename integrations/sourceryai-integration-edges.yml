@@ -16,6 +16,7 @@ checked:
 - https://registry.npmjs.org
 - https://repo1.maven.org/maven2
 - https://rubygems.org/api/v1
+- vercel/integrations/vercel-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: GitHub Marketplace (apps)
@@ -130,6 +131,24 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-official-clis.py
   first_seen: '2026-10-20'
+- partner_name: Vercel (own)
+  partner: vercel
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://vercel.com/marketplace/sourcery
+  mirror_of: vercel/integrations/vercel-integration-edges.yml
+  apps:
+  - Sourcery
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Agents Code Review Code Security
+  partner_tier: native
 source:
 - https://github.com/marketplace?type=actions
 - https://github.com/marketplace?type=apps
